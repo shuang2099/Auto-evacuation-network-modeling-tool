@@ -19,7 +19,7 @@ Restart your command prompt or computer, then open a new command prompt and type
 
 # 4. Quick Start Guide
 1. Download the Application
-   https://github.com/shuang2099/Auto-evacuation-network-modeling-tool/releases/download/evac_tool.exe/evac_tool.exe
+   https://github.com/shuang2099/Auto-evacuation-network-modeling-tool/releases/download/evac_tool/evac_tool.exe
 3. Create New Project  
    Click the ​​"Choose path"​​ button to select a working directory.  
    Click the ​​"Add"​​ button to import floor plan images (PNG and JPG formats supported).  
