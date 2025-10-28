@@ -1,0 +1,37 @@
+AutoEvaNetBuilder - Evacuation Network Modeling and Simulation Tool
+
+1. Introduction
+AutoEvaNetBuilder is a standalone software tool designed to automatically generate evacuation topological networks from floor plan images and perform evacuation simulations with visualization. The tool processes input floor plans through a series of steps including semantic segmentation, morphological processing, path analysis, network modeling, and simulation.
+
+​Note: This is a pre-packaged executable version - no Python installation required!
+
+2. System Requirements
+​Windows 10/11​ (64-bit)
+​Minimum 2GB RAM​ (4GB recommended)
+​500MB free disk space​
+​FFmpeg​ (required for evacuation animation generation)
+
+3. FFmpeg Installation (Required for Visualization)
+The evacuation process animation generation requires ​FFmpeg. Please download FFmpeg from: https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z
+
+4. Quick Start Guide
+Step 1: Launch the Application
+Double-click evac_tool.exe to start the program
+Step 2: Create New Project
+Click ​​"Choose path"​​ to choose a working directory
+Use ​​"Add"​​ to import floor plan images (PNG, JPG formats supported)
+Step 3: Modeling Process (Follow Sequential Order)
+​Pick Stair Nodes​ - Mark staircase locations on each floor
+​Run Recognition​ - Automatic room/door identification
+​Run Results refinement​ - Refine segmentation results
+​Run Routes analysis​ -Evacuation paths analysis
+​Run Network modeling​ - Create topological network model
+Step 4: Simulation & Visualization
+​Input Stair Parameters​ - Set staircase parameters
+Input Ratio - Ratio input tool
+​Build table​ - Prepare simulation input excel
+​Run Macro Simulation​ - Execute evacuation calculation
+​Run Visualization​ - Generate time graphs and animation
+Step 5: Export Results
+Use ​​"PDF report​​ to generate comprehensive PDF report
+
