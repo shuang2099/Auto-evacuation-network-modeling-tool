@@ -13,10 +13,8 @@ Memory:​​ Minimum 2GB RAM (4GB or more recommended)
 ​Dependencies:​​ FFmpeg (required for evacuation animation generation)  
 
 # 3. FFmpeg Installation (Required for Visualization)
-The evacuation process animation generation requires FFmpeg. Please follow these steps to install:
-Visit the FFmpeg official download page to download the full version:https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z
-Extract the downloaded 7z file.
-Add the path to the bin folder (e.g., C:\ffmpeg\bin) to your system's PATH environment variable.
+Click to download: https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z  
+Add the path to the bin folder (e.g., C:\ffmpeg\bin) to your system's PATH environment variable.  
 Restart your command prompt or computer, then open a new command prompt and type ffmpeg -version to verify the installation.
 
 # 4. Quick Start Guide
