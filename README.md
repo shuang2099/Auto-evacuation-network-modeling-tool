@@ -18,8 +18,8 @@ Add the path to the bin folder (e.g., C:\ffmpeg\bin) to your system's PATH envir
 Restart your command prompt or computer, then open a new command prompt and type ffmpeg -version to verify the installation.
 
 # 4. Quick Start Guide
-1. Download the Application  
-   https://github.com/shuang2099/Auto-evacuation-network-modeling-tool/releases/download/evac_tool v1.0.exe
+1. Download the Application
+   https://github.com/shuang2099/Auto-evacuation-network-modeling-tool/releases/download/evac_tool.exe/evac_tool.exe
 3. Create New Project  
    Click the ​​"Choose path"​​ button to select a working directory.  
    Click the ​​"Add"​​ button to import floor plan images (PNG and JPG formats supported).  
