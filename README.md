@@ -1,3 +1,4 @@
+![img](https://raw.githubusercontent.com/wiki/shuang2099/Auto-evacuation-network-modeling-tool/1.png)
 # Auto-evacuation-network-modeling-tool
 A standalone software tool designed to automatically generate evacuation topological networks from floor plan images and perform evacuation simulations with visualization
 
@@ -5,7 +6,7 @@ A standalone software tool designed to automatically generate evacuation topolog
 Auto-evacuation-network-modeling-tool is a standalone software tool designed to automatically generate evacuation topological networks from floor plan images and perform evacuation simulations with visualization. The tool processes input floor plans through a series of steps including semantic segmentation, morphological processing, path analysis, network modeling, and simulation.
 
 Note:​​ This is a pre-packaged executable version - ​no Python installation required!​​
-
+img
 # 2. System Requirements
 Operating System:​​ Windows 10/11 (64-bit)  
 Memory:​​ Minimum 2GB RAM (4GB or more recommended)  
