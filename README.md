@@ -1,4 +1,5 @@
 ![img](https://raw.githubusercontent.com/wiki/shuang2099/Auto-evacuation-network-modeling-tool/1.png)
+
 # Auto-evacuation-network-modeling-tool
 A standalone software tool designed to automatically generate evacuation topological networks from floor plan images and perform evacuation simulations with visualization
 
@@ -6,7 +7,9 @@ A standalone software tool designed to automatically generate evacuation topolog
 Auto-evacuation-network-modeling-tool is a standalone software tool designed to automatically generate evacuation topological networks from floor plan images and perform evacuation simulations with visualization. The tool processes input floor plans through a series of steps including semantic segmentation, morphological processing, path analysis, network modeling, and simulation.
 
 Note:​​ This is a pre-packaged executable version - ​no Python installation required!​​
+
 ![img](https://raw.githubusercontent.com/wiki/shuang2099/Auto-evacuation-network-modeling-tool/2.png)
+
 # 2. System Requirements
 Operating System:​​ Windows 10/11 (64-bit)  
 Memory:​​ Minimum 2GB RAM (4GB or more recommended)  
@@ -19,27 +22,35 @@ Add the path to the bin folder (e.g., C:\ffmpeg\bin) to your system's PATH envir
 Restart your command prompt or computer, then open a new command prompt and type ffmpeg -version to verify the installation.
 
 # 4. Quick Start Guide
-1. Download the Application
+1. Download the Application  
    https://github.com/shuang2099/Auto-evacuation-network-modeling-tool/releases/download/evac_tool/evac_tool.exe  
    **After downloading, copy the downloaded `evac_tool.exe` file into the `evac_tool/` directory.**
-3. Create New Project  
+
+2. Create New Project  
    Click the ​​"Choose path"​​ button to select a working directory.  
    Click the ​​"Add"​​ button to import floor plan images (PNG and JPG formats supported).
+
    ![img](https://raw.githubusercontent.com/wiki/shuang2099/Auto-evacuation-network-modeling-tool/import.png)
+
 3. Modeling Process (Execute in Sequential Order)  
-   ​Pick Stair Nodes: Mark staircase positions on each floor plan.  
-​   Run Recognition: Automatically identify rooms and doors.  
-​   Run Results refinement: Refine the semantic segmentation results.  
-​   Run Routes analysis: Analyze evacuation paths.  
+   Pick Stair Nodes: Mark staircase positions on each floor plan.  
+   Run Recognition: Automatically identify rooms and doors.  
+   Run Results refinement: Refine the semantic segmentation results.  
+   Run Routes analysis: Analyze evacuation paths.  
    Run Network modeling: Create the final topological network model.
+
    ![img](https://raw.githubusercontent.com/wiki/shuang2099/Auto-evacuation-network-modeling-tool/network.png)
-5. Simulation & Visualizationc  
-   ​Input Stair Parameters: Set staircase-related parameters.  
-​   Input Ratio: Use the ratio input tool.  
-​   Build table: Prepare the Excel input table for simulation.  
-​   Run Macro Simulation: Execute evacuation calculations.  
-​   Run Visualization: Generate time graphs and evacuation animation.
+
+4. Simulation & Visualizationc  
+   Input Stair Parameters: Set staircase-related parameters.  
+   Input Ratio: Use the ratio input tool.  
+   Build table: Prepare the Excel input table for simulation.  
+   Run Macro Simulation: Execute evacuation calculations.  
+   Run Visualization: Generate time graphs and evacuation animation.
+
    ![img](https://raw.githubusercontent.com/wiki/shuang2099/Auto-evacuation-network-modeling-tool/results.png)
+
    ![img](https://raw.githubusercontent.com/wiki/shuang2099/Auto-evacuation-network-modeling-tool/video.png)
-7. Export Results  
+
+5. Export Results  
    Click ​​"PDF report"​​ to generate a comprehensive PDF report containing all results.
